@@ -1,14 +1,5 @@
 {
     "configurations": [
-        {
-            "type": "java",
-            "name": "Spring Boot-SpringReactComboAppApplication<spring-react-combo-app>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "console": "internalConsole",
-            "mainClass": "e.the.awesome.springreactcomboapp.SpringReactComboAppApplication",
-            "projectName": "spring-react-combo-app",
-            "args": ""
-        }
+        
     ]
 }
