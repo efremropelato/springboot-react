@@ -15,15 +15,15 @@ public class User {
     @RemoteProperty
     private Integer age;
     @RemoteProperty
-    private String address;
+    private String city;
     @RemoteProperty
     private Date createAt;
 
-    public User(Integer id, String name, Integer age, String address, Date createAt) {
+    public User(Integer id, String name, Integer age, String city, Date createAt) {
         this.id = id;
         this.name = name;
         this.age = age;
-        this.address = address;
+        this.city = city;
         this.createAt = createAt;
     }
 
@@ -51,12 +51,12 @@ public class User {
         this.age = age;
     }
 
-    public String getAddress() {
-        return address;
+    public String getCity() {
+        return city;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setCity(String city) {
+        this.city = city;
     }
 
     public Date getCreateAt() {

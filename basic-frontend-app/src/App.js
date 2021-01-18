@@ -11,6 +11,7 @@ class App extends Component {
     });
     window.UserService.list((data) => {
       console.log(data);
+      this.setState({ list: data });
     });
     window.UserService.user((data) => {
       console.log(data);
@@ -38,6 +39,13 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload. <br/>
           {this.state.user ? this.state.user.name : ""}
+        </p>
+        <p>
+            <ul>
+                {this.state.list ? this.state.list.map((l)=>{
+                    return <li>{JSON.stringify(l)}</li>
+                }) : <li></li>}
+            </ul>
         </p>
       </div>
     );
