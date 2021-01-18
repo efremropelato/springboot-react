@@ -17,17 +17,18 @@ public class UserService {
 
     @RemoteMethod
     public User user() {
-        User test = new User(1, "小明", 11, "上海", new Date());
+        User test = new User(1, "Efrem", 42, "Monguzzo", new Date());
         return test;
     }
 
     @RemoteMethod
     public List<User> list() {
         List<User> list = new ArrayList<>();
-        list.add(new User(1, "小明", 11, "上海", new Date()));
-        list.add(new User(2, "小红", 12, "北京", new Date()));
-        list.add(new User(3, "小兰", 13, "广州", new Date()));
-        list.add(new User(4, "小镇", 14, "香港", new Date()));
+        list.add(new User(1, "Efrem", 42, "Monguzzo", new Date()));
+        list.add(new User(2, "Roberta", 42, "Monguzzo", new Date()));
+        list.add(new User(3, "Marco", 39, "Perugia", new Date()));
+        list.add(new User(4, "Luca", 50, "Ancona", new Date()));
+        System.out.print(list.toString());
         return list;
     }
 }
