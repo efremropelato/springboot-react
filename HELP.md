@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'e.the.awesome.spring-react-combo-app' is invalid and this project uses 'e.the.awesome.springreactcomboapp' instead.
+* The original package name 'e.the.awesome.spring-react-combo-app' is invalid and this project uses 'it.filippetti.app' instead.
 
 # Getting Started
 
